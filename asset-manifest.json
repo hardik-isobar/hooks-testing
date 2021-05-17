@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/hooks-testing/static/css/main.c1ee0f00.chunk.css",
+    "main.js": "/hooks-testing/static/js/main.cef074ed.chunk.js",
+    "main.js.map": "/hooks-testing/static/js/main.cef074ed.chunk.js.map",
+    "runtime-main.js": "/hooks-testing/static/js/runtime-main.bde06573.js",
+    "runtime-main.js.map": "/hooks-testing/static/js/runtime-main.bde06573.js.map",
+    "static/js/2.8953e4df.chunk.js": "/hooks-testing/static/js/2.8953e4df.chunk.js",
+    "static/js/2.8953e4df.chunk.js.map": "/hooks-testing/static/js/2.8953e4df.chunk.js.map",
+    "static/js/3.18f3ec12.chunk.js": "/hooks-testing/static/js/3.18f3ec12.chunk.js",
+    "static/js/3.18f3ec12.chunk.js.map": "/hooks-testing/static/js/3.18f3ec12.chunk.js.map",
+    "index.html": "/hooks-testing/index.html",
+    "static/css/main.c1ee0f00.chunk.css.map": "/hooks-testing/static/css/main.c1ee0f00.chunk.css.map",
+    "static/js/2.8953e4df.chunk.js.LICENSE.txt": "/hooks-testing/static/js/2.8953e4df.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/hooks-testing/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bde06573.js",
+    "static/js/2.8953e4df.chunk.js",
+    "static/css/main.c1ee0f00.chunk.css",
+    "static/js/main.cef074ed.chunk.js"
+  ]
+}
