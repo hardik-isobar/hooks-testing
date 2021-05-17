@@ -1,7 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import Modal from "./Modal";
 
 function App() {
+  const [showModal, setModalDisplay] = useState(false);
+
+  const toggleModal = () => {
+    showModal ? setModalDisplay(false) : setModalDisplay(true);
+  };
+
   return (
     <div className="App">
       <header className="App-header">
@@ -18,6 +26,10 @@ function App() {
           Learn React
         </a>
       </header>
+      <div className="modal-container">
+        <button onClick={toggleModal}>Open Modal</button>
+        {showModal && <Modal closeModal={toggleModal} />}
+      </div>
     </div>
   );
 }
