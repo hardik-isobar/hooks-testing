@@ -7,19 +7,19 @@ import {
 
 export default function Modal({ closeModal }) {
   const close = () => {
-    enableBodyScroll(document.querySelector("body"));
+    enableBodyScroll(document.querySelector("#modal"));
     closeModal();
   };
 
   useEffect(() => {
-    disableBodyScroll(document.querySelector("body"));
+    disableBodyScroll(document.querySelector("#modal"));
     return () => {
       clearAllBodyScrollLocks();
     };
   }, []);
 
   return (
-    <div className="modal-overlay">
+    <div className="modal-overlay" id="modal">
       <div className="modal-close" onClick={close}>
         x
       </div>
